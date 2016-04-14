@@ -1,6 +1,7 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-export default class Main extends React.component {
+class Wrapper extends React.Component {
   render() {
     return (
       <div>
@@ -9,3 +10,5 @@ export default class Main extends React.component {
     );
   }
 }
+
+export default Wrapper
