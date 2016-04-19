@@ -1,6 +1,6 @@
 module.exports = {
   entry: [
-    './app/Main.js'
+    './app/index.jsx'
   ],
   output: {
     path: './',
@@ -13,7 +13,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js?$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel',
         query: {
