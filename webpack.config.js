@@ -1,9 +1,10 @@
 module.exports = {
+  devtool: 'cheap-module-source-map',
   entry: [
     './app/index.jsx'
   ],
   output: {
-    path: './',
+    path: './public/',
     filename: 'bundle.js'
   },
   devServer: {
