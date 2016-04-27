@@ -1,10 +1,10 @@
 module.exports = {
-  devtool: 'cheap-module-source-map',
+  // devtool: 'cheap-module-source-map',
   entry: [
-    './app/index.jsx'
+    './public/index.jsx'
   ],
   output: {
-    path: './public/',
+    path: './',
     filename: 'bundle.js'
   },
   devServer: {
@@ -20,6 +20,10 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
+      },
+      {
+        test: /\.json$/,
+        loader: 'json'
       }
     ]
   }
