@@ -17,7 +17,7 @@ export default class Wrapper extends React.Component {
     return (
       <div id="wrapper">
         <Header task={task} fixture={fixture} />
-        <Instructor	/>
+        <Instructor	fixture={fixture} />
         <Workspace />
         <Footer />
       </div>
