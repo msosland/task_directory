@@ -6,7 +6,7 @@ export default class HeaderLogo extends React.Component {
   render() {
     return (
       <div className={styles.logoContainer}>
-        <img className={styles.logoImage} src={this.props.fixture.example.image} />
+        <img className={styles.logoImage} src={this.props.fixture.header.logo} />
       </div>
       );
   }

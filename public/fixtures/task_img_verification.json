@@ -1,6 +1,31 @@
 {
-  "prompt": {
-    "principal": "Is this a clear photo of",
-    "punctuation": "?"
+  "header": {
+    "prompt": {
+      "principal": "Is this a clear photo of a",
+      "punctuation": "?"
+    },
+    "logo": "http://i.imgur.com/MU2dD8E.jpg"
+  },
+  "instructor": {
+    "prompt": "Example: Is this a clear photograph depicting FOX?",
+    "images": [
+      {
+        "correct": "true",
+        "src": "http://i.imgur.com/MU2dD8E.jpg",
+        "exampleAnswer": "Clear Photo of a Fox"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg",
+        "exampleAnswer": "Not a Fox"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg",
+        "exampleAnswer": "Photo is Unclear"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg",
+        "exampleAnswer": "Not a Photo"
+      }
+    ]
   }
 }
