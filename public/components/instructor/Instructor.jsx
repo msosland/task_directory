@@ -3,7 +3,7 @@ import React from 'react';
 import InstructorPrompt from './InstructorPrompt.jsx';
 import ExamplesContainer from './ExamplesContainer.jsx';
 
-import styles from '../css/instructor.css';
+import styles from '../../css/instructor.css';
 
 export default class Instructor extends React.Component {
   render() {

@@ -3,7 +3,7 @@ import React from 'react';
 import HeaderPrompt from './HeaderPrompt.jsx';
 import HeaderLogo from './HeaderLogo.jsx';
 
-import styles from '../css/header.css'
+import styles from '../../css/header.css'
 
 export default class Header extends React.Component {
   render() {

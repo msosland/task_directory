@@ -1,6 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
-import styles from '../css/instructor.css';
+import styles from '../../css/instructor.css';
 
 export default class ExampleImage extends React.Component {
   render() {

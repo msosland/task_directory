@@ -1,9 +1,9 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
-import Header from './Header.jsx';
-import Instructor from './Instructor.jsx';
-import Workspace from './Workspace.jsx';
-import Footer from './Footer.jsx';
+import Header from './header/Header.jsx';
+import Instructor from './instructor/Instructor.jsx';
+import Workspace from './workspace/Workspace.jsx';
+import Footer from './footer/Footer.jsx';
 
 import fixture from '../fixtures/task_img_verification.json';
 const task = {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../css/header.css'
+import styles from '../../css/header.css'
 
 export default class HeaderLogo extends React.Component {
   render() {
