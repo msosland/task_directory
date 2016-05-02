@@ -27,5 +27,45 @@
         "exampleAnswer": "Not a Photo"
       }
     ]
+  },
+  "workspace": {
+    "images": [
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      },
+      {
+        "src": "http://i.imgur.com/MU2dD8E.jpg"
+      }
+    ]
   }
 }
