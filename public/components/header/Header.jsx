@@ -5,15 +5,15 @@ import HeaderLogo from './HeaderLogo.jsx';
 
 import styles from '../../css/header.css'
 
-export default class Header extends React.Component {
-  render() {
-    return (
-      <div>
-        <header className={styles.header}>
-          <HeaderPrompt task={this.props.task} fixture={this.props.fixture} />
-          <HeaderLogo fixture={this.props.fixture} />
-        </header>
-      </div>
-      );
-  }
+const Header = ({task, fixture}) => {
+  return (
+    <div>
+      <header className={styles.header}>
+        <HeaderPrompt task={task} fixture={fixture} />
+        <HeaderLogo fixture={fixture} />
+      </header>
+    </div>
+  )
 }
+
+export default Header
