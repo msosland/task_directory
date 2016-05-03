@@ -1,9 +1,10 @@
 module.exports = {
+  // devtool: 'cheap-module-source-map',
   entry: [
-    './app/index.jsx'
+    './public/index.jsx'
   ],
   output: {
-    path: './',
+    path: './public/',
     filename: 'bundle.js'
   },
   devServer: {
@@ -19,6 +20,14 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
+      },
+      {
+        test: /\.json$/,
+        loader: 'json'
+      },
+      {
+        test: /\.css$/,
+        loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
       }
     ]
   }

@@ -1,0 +1,24 @@
+.headerBar {
+
+}
+
+.prompt {
+  display: inline;
+}
+
+.thick {
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.logoContainer {
+  float: right;
+}
+
+.logoImage {
+  height: 20px;
+  width: 100px;
+}

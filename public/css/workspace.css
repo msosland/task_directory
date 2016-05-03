@@ -1,0 +1,34 @@
+.workspace {
+  clear: both;
+}
+
+.operand {
+  float: left;
+  margin: 30px 10px 0 0 ;
+}
+
+.blankChoice {
+  height: 180px;
+  width: 200px;
+}
+
+.yesChoice {
+  height: 180px;
+  width: 300px;
+}
+
+.noChoice {
+  height: 300px;
+  width: 200px;
+}
+
+
+.nobutton {
+  background-color: red;
+  width: 50%;
+}
+
+.yesbutton {
+  background-color: green;
+  width: 50%;
+}
